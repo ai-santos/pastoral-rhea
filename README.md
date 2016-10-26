@@ -74,6 +74,8 @@ The exercises to reinforce conceptual knowledge emphasize the importance of know
 
 [SQL Teaching](https://www.sqlteaching.com/)
 
+[What are 1NF, 2NF and 3NF in database design?](http://stackoverflow.com/questions/723998/what-are-1nf-2nf-and-3nf-in-database-design/724032#724032)
+
 ---
 
 <!-- LICENSE -->
