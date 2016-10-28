@@ -838,25 +838,42 @@ AND name != 'Art Garfunkel'
 * Show the first name and the email address of customer with CompanyName 'Bike World'
 
 ```
-SELECT FirstName, EmailAddress  from CustomerAW WHERE CompanyName = 'Bike World';
+SELECT FirstName, EmailAddress
+FROM CustomerAW WHERE CompanyName = 'Bike World';
 ```
 * Show the CompanyName for all customers with an address in City 'Dallas'.
 
 ```
-SELECT DISTINCT CompanyName  FROM CustomerAW JOIN CustomerAddress ON (CustomerAW.CustomerID = CustomerAddress.CustomerID) JOIN Address ON (CustomerAddress.AddressID = Address.AddressID) WHERE City = 'Dallas';
+SELECT DISTINCT CompanyName 
+FROM CustomerAW 
+JOIN CustomerAddress ON (CustomerAW.CustomerID = CustomerAddress.CustomerID) 
+JOIN Address ON (CustomerAddress.AddressID = Address.AddressID) 
+WHERE City = 'Dallas';
 ```
 * How many items with ListPrice more than $1000 have been sold?
 
 ```
-SELECT SUM(OrderQty) AS '#Items>$1000' FROM ProductAW JOIN SalesOrderDetail ON (ProductAW.ProductID = SalesOrderDetail.ProductID) WHERE ListPrice > 1000 
+SELECT SUM(OrderQty) AS '#Items>$1000' 
+FROM ProductAW 
+JOIN SalesOrderDetail ON (ProductAW.ProductID = SalesOrderDetail.ProductID) 
+WHERE ListPrice > 1000 
 ```
 * Give the CompanyName of those customers with orders over $100000. Include the subtotal plus tax plus freight.
 
 ```
-SELECT CompanyName FROM CustomerAW JOIN SalesOrderHeader ON (CustomerAW.CustomerID = SalesOrderHeader.CustomerID)  GROUP BY CompanyName HAVING SUM(Subtotal + TaxAmt + Freight) > 100000
+SELECT CompanyName 
+FROM CustomerAW 
+JOIN SalesOrderHeader ON (CustomerAW.CustomerID = SalesOrderHeader.CustomerID) 
+GROUP BY CompanyName 
+HAVING SUM(Subtotal + TaxAmt + Freight) > 100000
 ```
 * Find the number of left racing socks ('Racing Socks, L') ordered by CompanyName 'Riding Cycles'
 
 ```
-SELECT COUNT(*) FROM CustomerAW JOIN SalesOrderHeader ON (CustomerAW.CustomerID = SalesOrderHeader.CustomerID) JOIN SalesOrderDetail ON (SalesOrderHeader.SalesOrderID = SalesOrderDetail.SalesOrderID) JOIN ProductAW ON(SalesOrderDetail.ProductID = ProductAW.ProductID) WHERE CompanyName = 'Riding Cycles' AND Name = 'Racing Socks, L';
+SELECT COUNT(*) 
+FROM CustomerAW 
+JOIN SalesOrderHeader ON (CustomerAW.CustomerID = SalesOrderHeader.CustomerID) 
+JOIN SalesOrderDetail ON (SalesOrderHeader.SalesOrderID = SalesOrderDetail.SalesOrderID) 
+JOIN ProductAW ON(SalesOrderDetail.ProductID = ProductAW.ProductID) 
+WHERE CompanyName = 'Riding Cycles' AND Name = 'Racing Socks, L';
 ```
