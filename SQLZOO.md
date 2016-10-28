@@ -9,7 +9,7 @@
 [Self JOIN](#self-join)<br>
 [Using NULL](#using-null)<br>
 [More JOIN operations](#more-join-operations)<br>
-[Adventure Works Bonus Questions](#adventure-works-bonus-question)<br>
+[Adventure Works Bonus Questions](#adventure-works-bonus-questions)<br>
 
 ## SELECT Basics
 [Back to Table of Contents](#table-of-contents)
@@ -830,6 +830,8 @@ AND name != 'Art Garfunkel'
 ```
 
 ## Adventure Works Bonus Questions
+
+[Back to Table of Contents](#table-of-contents)
 
 * Tables used at: http://sqlzoo.net/wiki/AdventureWorks
 
