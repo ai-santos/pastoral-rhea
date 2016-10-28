@@ -11,7 +11,7 @@
 [More JOIN operations](#more-join-operations)<br>
 
 ## SELECT Basics
-[Table of Contents](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
 * Using table (world) from: http://sqlzoo.net/wiki/SELECT_basics
 
 * The example uses a WHERE clause to show the population of 'France'. Note that strings (pieces of text that are data) should be in 'single quotes';
@@ -41,7 +41,7 @@ SELECT name, area FROM world
 * Using table (world) from: http://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial
 
 ## SELECT from WORLD Tutorial
-[Table of Contents](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
 * Read the notes about this table. Observe the result of running a simple SQL command.
 ```
 SELECT name, continent, population FROM world
@@ -147,7 +147,7 @@ ORDER BY name ASC
 
 
 ## SELECT from Nobel Tutorial
-[Table of Contents](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
 * Using table (nobel) from: http://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial
 
 * Change the query shown so that it displays Nobel prizes for 1950.
@@ -242,7 +242,7 @@ SELECT winner, subject
 
 
 ## SELECT within SELECT Tutorial
-[Table of Contents](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
 * Using table (world) from: http://sqlzoo.net/wiki/SELECT_within_SELECT_Tutorial
 
 * List each country name where the population is larger than that of 'Russia'.
@@ -331,7 +331,7 @@ WHERE x.continent = y.continent AND x.population < 3 * y.population )
 
 
 ## SUM and COUNT
-[Table of Contents](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
 * Using table (world) from: http://sqlzoo.net/wiki/SUM_and_COUNT
 
 * Show the total population of the world.
@@ -386,7 +386,7 @@ HAVING SUM(population)>=100000000
 
 
 ## The JOIN operation
-[Table of Contents](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
 * Using tables (game, goal, and eteam) from: http://sqlzoo.net/wiki/The_JOIN_operation
 
 * The first example shows the goal scored by a player with the last name 'Bender'. The * says to list all the columns in the table - a shorter way of saying matchid, teamid, player, gtime
@@ -502,7 +502,7 @@ GROUP BY mdate, matchid, team1, team2
 
 
 ## Self JOIN
-[Table of Contents](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
 * Using tables (stops, and routes) from: http://sqlzoo.net/wiki/Self_join
 stops( id, name )
 route( num, company, pos, stop )
@@ -602,7 +602,7 @@ JOIN stops ON(stops.id = S.stop)
 
 
 ## Using NULL
-[Table of Contents](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
 * Using tables (teacher, and dept) from: http://sqlzoo.net/wiki/Using_Null
 teacher( id, dept, name, phone, mobile )
 dept( id, name )
@@ -681,7 +681,7 @@ FROM teacher t
 
 
 ## More JOIN operations
-[Table of Contents](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
 * Using tables (movie, actor, and casting) from: http://sqlzoo.net/wiki/More_JOIN_operations
 movie( id, title, yr, director, budget, gross )
 actor( id, name )
@@ -768,7 +768,7 @@ LIMIT 85
 ```
 
 ## Harder Questions
-[Table of Contents](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
 * Which were the busiest years for 'John Travolta', show the year and the number of movies he made each year for any year in which he made more than 2 movies.
 ```
 SELECT yr,COUNT(title) FROM
