@@ -1,11 +1,20 @@
+#Table of Contents
 [SELECT Basics](#select-basics)
+
 [SELECT from WORLD Tutorial](#SELECT-from-WORLD-Tutorial)
+
 [SELECT from Nobel Tutorial](#SELECT-from-Nobel-Tutorial)
+
 [SELECT within SELECT Tutorial](#SELECT-within-SELECT-Tutorial)
+
 [SUM and COUNT](#SUM-and-COUNT)
+
 [The JOIN operation](#The-JOIN-operation)
+
 [Self JOIN](#Self-JOIN)
+
 [Using NULL](#Using-NULL)
+
 [More JOIN operations](#More-JOIN-operations)
 
 
