@@ -1,27 +1,18 @@
 #Table of Contents
-[Problem 1](#problem-1)
-
-[Problem 2](#problem-2)
-
-[Problem 3](#problem-3)
-
-[Problem 4](#problem-4)
-
-[Problem 5](#problem-5)
-
-[Problem 6](#problem-6)
-
-[Problem 7](#problem-7)
-
-[Problem 8](#problem-8)
-
-[Problem 9](#problem-9)
-
-[Problem 10](#problem-10)
+[Main Page](https://github.com/lumodon/pastoral-rhea/blob/master/README.md)<br>
+[Problem 1](#problem-1)<br>
+[Problem 2](#problem-2)<br>
+[Problem 3](#problem-3)<br>
+[Problem 4](#problem-4)<br>
+[Problem 5](#problem-5)<br>
+[Problem 6](#problem-6)<br>
+[Problem 7](#problem-7)<br>
+[Problem 8](#problem-8)<br>
+[Problem 9](#problem-9)<br>
+[Problem 10](#problem-10)<br>
 
 #Problem 1: 
-[Table of Contents](#table-of-contents)
-
+[Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/duplicate-emails/
 Answer:
 ```
@@ -42,8 +33,7 @@ SELECT DISTINCT Email FROM namedTable x
 ```
 
 #Problem 2: 
-[Table of Contents](#table-of-contents)
-
+[Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/employees-earning-more-than-their-managers/
 Answer:
 ```
@@ -70,8 +60,7 @@ SELECT Name AS Employee FROM Employee x
 ```
 
 #Problem 3:
-[Table of Contents](#table-of-contents)
-
+[Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/combine-two-tables/ :
 ANSWER:
 ```
@@ -90,8 +79,7 @@ SELECT MAX(Salary) AS SecondHighestSalary FROM Employee
 ```
 
 #Problem 5:
-[Table of Contents](#table-of-contents)
-
+[Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/delete-duplicate-emails/
 ANSWER:
 ```
@@ -102,8 +90,7 @@ p1.Id > p2.Id
 ```
 
 #Problem 6: 
-[Table of Contents](#table-of-contents)
-
+[Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/customers-who-never-order/
 Answer:
 ```
@@ -138,8 +125,7 @@ SELECT Customers.Name AS Customers FROM Customers
 ```
 
 #Problem 7:
-[Table of Contents](#table-of-contents)
-
+[Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/rising-temperature/
 ANSWER:
 ```
@@ -150,8 +136,7 @@ AND w1.Temperature > w2.Temperature;
 ```
 
 #Problem 8:
-[Table of Contents](#table-of-contents)
-
+[Table of Contents](#table-of-contents)<br>
 Question: https://leetcode.com/problems/nth-highest-salary/
 Answer:
 ```
@@ -168,8 +153,7 @@ END
 
 
 #Problem 9: 
-[Table of Contents](#table-of-contents)
-
+[Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/department-highest-salary/
 Answer: 
 ```
@@ -208,8 +192,7 @@ WHERE (DepartmentId, Salary) IN (
 ```
 
 #Problem 10:
-[Table of Contents](#table-of-contents)
-
+[Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/rank-scores/
 ANSWER:
 ```
