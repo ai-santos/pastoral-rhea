@@ -40,19 +40,19 @@ The exercises to reinforce conceptual knowledge emphasize the importance of know
 
 **SQL Foundations**
 
-- [ ] Work through the exercises on [SQLBolt](https://sqlbolt.com/)
-- [ ] Work through the exercises under the "Tutorials: Learn SQL in stages" section on [SQLZOO](http://sqlzoo.net/)
+- [X] Work through the exercises on [SQLBolt](https://sqlbolt.com/)
+- [X] Work through the exercises under the "Tutorials: Learn SQL in stages" section on [SQLZOO](http://sqlzoo.net/)
 
 
 **SQL Foundations Practice Exercises**
 
-- [ ] Complete 10 TOTAL "Easy" and "Medium" level [database challenges](https://leetcode.com/problemset/database/) on LeetCode. Prerequisite knowledge: the **SQL Foundations** specifications listed above.
+- [X] Complete 10 TOTAL "Easy" and "Medium" level [database challenges](https://leetcode.com/problemset/database/) on LeetCode. Prerequisite knowledge: the **SQL Foundations** specifications listed above.
 
 
 **Exercises to Reinforce Conceptual Knowledge**
 
-- [ ] Complete 10 [Relational Algebra challenges](https://www.hackerrank.com/domains/databases/relational-algebra/difficulty/all/page/1) on HackerRank
-- [ ] Complete 5 [Database Normalization challenges](https://www.hackerrank.com/domains/databases/database-normalization/difficulty/all/page/1) on HackerRank
+- [X] Complete 10 [Relational Algebra challenges](https://www.hackerrank.com/domains/databases/relational-algebra/difficulty/all/page/1) on HackerRank
+- [X] Complete 5 [Database Normalization challenges](https://www.hackerrank.com/domains/databases/database-normalization/difficulty/all/page/1) on HackerRank
 
 **Bonus** (if you finish these exercises and want more)
 
@@ -61,7 +61,7 @@ The exercises to reinforce conceptual knowledge emphasize the importance of know
 
 ### Required
 
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ## Quality Rubric
 
