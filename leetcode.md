@@ -12,7 +12,7 @@
 [Problem 10](#problem-10)<br>
 
 #Problem 1: 
-[Table of Contents](#table-of-contents)<br>
+[Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/duplicate-emails/
 Answer:
 ```
@@ -33,7 +33,7 @@ SELECT DISTINCT Email FROM namedTable x
 ```
 
 #Problem 2: 
-[Table of Contents](#table-of-contents)<br>
+[Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/employees-earning-more-than-their-managers/
 Answer:
 ```
@@ -60,7 +60,7 @@ SELECT Name AS Employee FROM Employee x
 ```
 
 #Problem 3:
-[Table of Contents](#table-of-contents)<br>
+[Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/combine-two-tables/ :
 ANSWER:
 ```
@@ -69,7 +69,7 @@ SELECT firstName AS FirstName, lastName AS LastName, City, State FROM Person
 ```
 
 #Problem 4:
-[Table of Contents](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
 
 https://leetcode.com/problems/second-highest-salary/
 ANSWER:
@@ -79,7 +79,7 @@ SELECT MAX(Salary) AS SecondHighestSalary FROM Employee
 ```
 
 #Problem 5:
-[Table of Contents](#table-of-contents)<br>
+[Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/delete-duplicate-emails/
 ANSWER:
 ```
@@ -90,7 +90,7 @@ p1.Id > p2.Id
 ```
 
 #Problem 6: 
-[Table of Contents](#table-of-contents)<br>
+[Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/customers-who-never-order/
 Answer:
 ```
@@ -125,7 +125,7 @@ SELECT Customers.Name AS Customers FROM Customers
 ```
 
 #Problem 7:
-[Table of Contents](#table-of-contents)<br>
+[Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/rising-temperature/
 ANSWER:
 ```
@@ -136,7 +136,7 @@ AND w1.Temperature > w2.Temperature;
 ```
 
 #Problem 8:
-[Table of Contents](#table-of-contents)<br>
+[Back to Table of Contents](#table-of-contents)<br>
 Question: https://leetcode.com/problems/nth-highest-salary/
 Answer:
 ```
@@ -153,7 +153,7 @@ END
 
 
 #Problem 9: 
-[Table of Contents](#table-of-contents)<br>
+[Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/department-highest-salary/
 Answer: 
 ```
@@ -192,7 +192,7 @@ WHERE (DepartmentId, Salary) IN (
 ```
 
 #Problem 10:
-[Table of Contents](#table-of-contents)<br>
+[Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/rank-scores/
 ANSWER:
 ```
