@@ -1,22 +1,14 @@
 #Table of Contents
-[SELECT Basics](#select-basics)
-
-[SELECT from WORLD Tutorial](#select-from-world-tutorial)
-
-[SELECT from Nobel Tutorial](#select-from-nobel-tutorial)
-
-[SELECT within SELECT Tutorial](#select-within-select-tutorial)
-
-[SUM and COUNT](#sum-and-count)
-
-[The JOIN operation](#the-join-operation)
-
-[Self JOIN](#self-join)
-
-[Using NULL](#using-null)
-
-[More JOIN operations](#more-join-operations)
-
+[Main Page](https://github.com/lumodon/pastoral-rhea/blob/master/README.md)<br><br>
+[SELECT Basics](#select-basics)<br>
+[SELECT from WORLD Tutorial](#select-from-world-tutorial)<br>
+[SELECT from Nobel Tutorial](#select-from-nobel-tutorial)<br>
+[SELECT within SELECT Tutorial](#select-within-select-tutorial)<br>
+[SUM and COUNT](#sum-and-count)<br>
+[The JOIN operation](#the-join-operation)<br>
+[Self JOIN](#self-join)<br>
+[Using NULL](#using-null)<br>
+[More JOIN operations](#more-join-operations)<br>
 
 ## SELECT Basics
 [Table of Contents](#table-of-contents)
