@@ -1,3 +1,8 @@
+# Links
+
+[SQL zoo](https://github.com/lumodon/pastoral-rhea/blob/master/SQLZOO.md)<br>
+[Leetcode](https://github.com/lumodon/pastoral-rhea/blob/master/leetcode.md)
+
 ## Description
 
 **SQL Foundations**
