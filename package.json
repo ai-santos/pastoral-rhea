@@ -1,0 +1,29 @@
+{
+  "name": "pastoral-rhea",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./bin/www",
+    "sql": "psql -f puppies.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumodon/pastoral-rhea.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lumodon/pastoral-rhea/issues"
+  },
+  "homepage": "https://github.com/lumodon/pastoral-rhea#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "pg-promise": "^5.3.5",
+    "serve-favicon": "~2.3.0"
+  }
+}
