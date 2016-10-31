@@ -14,7 +14,7 @@
 #Problem 1: 
 [Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/duplicate-emails/
-Answer:
+Setup:
 ```
 CREATE TABLE Person(
 	Id INTEGER,
@@ -28,7 +28,7 @@ INSERT INTO namedTable (Id, Email)
 #Problem 2: 
 [Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/employees-earning-more-than-their-managers/
-Answer:
+Setup:
 ```
 CREATE TABLE Employee (
 	Id INTEGER PRIMARY KEY,
@@ -47,7 +47,7 @@ INSERT INTO Employee (Id, Name, Salary, ManagerId)
 #Problem 3:
 [Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/combine-two-tables/ :
-ANSWER:
+Setup:
 ```
 SELECT firstName AS FirstName, lastName AS LastName, City, State FROM Person 
     LEFT JOIN Address ON Person.PersonId = Address.PersonId; 
@@ -57,7 +57,7 @@ SELECT firstName AS FirstName, lastName AS LastName, City, State FROM Person
 [Back to Table of Contents](#table-of-contents)
 
 https://leetcode.com/problems/second-highest-salary/
-ANSWER:
+Setup:
 ```
 SELECT MAX(Salary) AS SecondHighestSalary FROM Employee 
 	WHERE Salary < ALL(SELECT MAX(Salary) FROM Employee);
@@ -66,7 +66,7 @@ SELECT MAX(Salary) AS SecondHighestSalary FROM Employee
 #Problem 5:
 [Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/delete-duplicate-emails/
-ANSWER:
+Setup:
 ```
 #No prep needed
 ```
@@ -74,7 +74,7 @@ ANSWER:
 #Problem 6: 
 [Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/customers-who-never-order/
-Answer:
+Setup:
 ```
 DROP TABLE IF EXISTS Customers;
 DROP TABLE IF EXISTS Orders;
@@ -103,7 +103,7 @@ INSERT INTO Orders (Id, CustomerId)
 #Problem 7:
 [Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/rising-temperature/
-ANSWER:
+Setup:
 ```
 #No prep work provided
 ```
@@ -111,7 +111,7 @@ ANSWER:
 #Problem 8:
 [Back to Table of Contents](#table-of-contents)<br>
 Question: https://leetcode.com/problems/nth-highest-salary/
-Answer:
+Setup:
 ```
 #Function based answer
 ```
@@ -120,7 +120,7 @@ Answer:
 #Problem 9: 
 [Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/department-highest-salary/
-Answer: 
+Setup: 
 ```
 DROP TABLE IF EXISTS Employee;
 DROP TABLE IF EXISTS Department;
@@ -152,7 +152,7 @@ INSERT INTO Department (Id, Name)
 #Problem 10:
 [Back to Table of Contents](#table-of-contents)<br>
 https://leetcode.com/problems/rank-scores/
-ANSWER:
+Setup:
 ```
 #No setup provided
 ```
