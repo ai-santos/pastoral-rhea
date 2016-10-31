@@ -49,8 +49,7 @@ INSERT INTO Employee (Id, Name, Salary, ManagerId)
 https://leetcode.com/problems/combine-two-tables/ :
 <br>Setup:
 ```
-SELECT firstName AS FirstName, lastName AS LastName, City, State FROM Person 
-    LEFT JOIN Address ON Person.PersonId = Address.PersonId; 
+#No setup provided
 ```
 
 #Problem 4:
@@ -59,8 +58,7 @@ SELECT firstName AS FirstName, lastName AS LastName, City, State FROM Person
 https://leetcode.com/problems/second-highest-salary/
 <br>Setup:
 ```
-SELECT MAX(Salary) AS SecondHighestSalary FROM Employee 
-	WHERE Salary < ALL(SELECT MAX(Salary) FROM Employee);
+#No setup provided
 ```
 
 #Problem 5:
