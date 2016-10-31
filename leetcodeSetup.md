@@ -1,3 +1,6 @@
+## Note
+On this setup file. Some of these problems I didn't provide setup. Some don't require it. Please contribute / share if you see something and know how to set it up. Direct message me on github! Thank you. Also, if there are any problems people are interested in on leetcode besides the provided ones, include those too.
+
 #Table of Contents
 [Main Page](https://github.com/lumodon/pastoral-rhea/blob/master/README.md)<br><br>
 [Problem 1](#problem-1)<br>
